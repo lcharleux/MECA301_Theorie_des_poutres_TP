@@ -1,9 +1,8 @@
 ################################################################################
-# MECA302
+# MECA301 - Mécanique du solide
+# Torseurs
 ################################################################################
 
-
-import numpy as np
 from string import Template
 import sympy as sp
 
@@ -71,7 +70,7 @@ class Torseur:
 
     def __sub__(self, T):
         return self - T
-    
+
     def assert_null_as_eq(self):
         """
         Assets that the torsor is null and rerturns equations if non trivial.
